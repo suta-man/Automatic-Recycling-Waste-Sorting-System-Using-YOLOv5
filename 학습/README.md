@@ -116,4 +116,4 @@ dnn=False, # ONNX 추론에 OpenCV DNN 사용 사용안함 vid_stride=1, # 비�
 ---
 > ![val_batch0_labels](https://github.com/suta-man/Automatic-Recycling-Waste-Sorting-System-Using-YOLOv5/assets/130136862/42436ec6-3b11-40a7-873f-d10ac4a0a255)
 > ![val_batch2_pred](https://github.com/suta-man/Automatic-Recycling-Waste-Sorting-System-Using-YOLOv5/assets/130136862/6220c055-0a27-4f8e-9348-797a2c1b29ed)
-- Detection의 결과로 잘 인식이 되는 모습을 보여준다.
+- Detection의 결과로 대체적으로 잘 인식이 되는 모습을 보여준다.
