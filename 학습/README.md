@@ -117,3 +117,6 @@ dnn=False, # ONNX 추론에 OpenCV DNN 사용 사용안함 vid_stride=1, # 비�
 > ![val_batch0_labels](https://github.com/suta-man/Automatic-Recycling-Waste-Sorting-System-Using-YOLOv5/assets/130136862/42436ec6-3b11-40a7-873f-d10ac4a0a255)
 > ![val_batch2_pred](https://github.com/suta-man/Automatic-Recycling-Waste-Sorting-System-Using-YOLOv5/assets/130136862/6220c055-0a27-4f8e-9348-797a2c1b29ed)
 - Detection의 결과로 대체적으로 잘 인식이 되는 모습을 보여준다.
+
+# 실제 학습 결과물
+- Retrash.pt 파일은 실제 yolov5에서 사용가능한 Weights파일로 시험적으로 사용해 볼수있으나 본 프로젝트에 맞게 설계된 Weights파일로 본 프로젝트 진행당시 드링크제병(비타500, 박카스등), 일반적인 캔음료, 카페컵 위주로 Auto Detection을 하기위해 구성된 데이터셋을 사용하여 적절한 데이터셋 구성을 필요로 한다. 
