@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/retrash/datset/export/trains
+val: /content/drive/MyDrive/retrash/datset/export/val
+
+nc: 3
+names: [‘Glass, ‘Can’, ‘plastic’]
