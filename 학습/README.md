@@ -112,4 +112,8 @@ dnn=False, # ONNX 추론에 OpenCV DNN 사용 사용안함 vid_stride=1, # 비�
 ### 평가 
 ---
 > ![PR_curve](https://user-images.githubusercontent.com/130136862/278864795-67f7f6be-ec4e-4945-98a9-3df4e1955b6e.png)
-학습시 PR커브 곡선을 볼수있는데 값을 보면 mAP성능이 64.1%정도로 나오게 되는 것을 알수있다. 
+- 학습시 PR커브 곡선을 볼수있는데 값을 보면 mAP성능이 64.1%정도로 나오게 되는 것을 알수있다.
+---
+> ![val_batch0_labels](https://github.com/suta-man/Automatic-Recycling-Waste-Sorting-System-Using-YOLOv5/assets/130136862/42436ec6-3b11-40a7-873f-d10ac4a0a255)
+> ![val_batch2_pred](https://github.com/suta-man/Automatic-Recycling-Waste-Sorting-System-Using-YOLOv5/assets/130136862/6220c055-0a27-4f8e-9348-797a2c1b29ed)
+- Detection의 결과로 잘 인식이 되는 모습을 보여준다.
