@@ -8,7 +8,7 @@
 
 Train데이터 구성
 
--Train데이터 경로: 
+-Train데이터 경로: https://drive.google.com/drive/folders/1bn_r7nZ7Fj6Y_RKwQjAZ2Yawk3L2kgtd?usp=drive_link
 
 |데이터 종류|개수[개]|비율[%]|
 |--------|---|---|
