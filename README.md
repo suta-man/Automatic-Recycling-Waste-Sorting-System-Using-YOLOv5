@@ -29,3 +29,9 @@ YOLOv5(You Only Look Once version 5)를 이용한 재황용 폐기물 자동 분
 ### 📌 주요기능
 
 YOLO인공지능을 이용해 검출된 폐기물을 자동분류
+
+### 🔁시스템 흐름도
+<img width="698" alt="사진_2_1" src="https://github.com/suta-man/Automatic-Recycling-Waste-Sorting-System-Using-YOLOv5/assets/130136862/f1b73893-1716-4573-8f9d-92f22726a20f">
+
+### ⇪시스템 회로구성
+![사진2_12](https://github.com/suta-man/Automatic-Recycling-Waste-Sorting-System-Using-YOLOv5/assets/130136862/295e78c5-22dc-4251-afe4-3803d5aec2a8)
