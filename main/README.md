@@ -63,8 +63,7 @@ for c in det[:, 5].unique():
 n=(det[:,5]==c).sum() #각클래스별탐지수 number5 = int(c)
 print(number5) #감지된 클래스 로그 출력
 if number5 == 0: # 유리
-- 21 -
-      # 시계 방향으로 120도 회전
+# 시계 방향으로 120도 회전
 steps = int(120 / angle_per_step) move_stepper_motor(steps, GPIO.HIGH, delay)
 # 서보 모터를 90도로 움직임 GPIO.setup(SUB, GPIO.OUT) #서보모터 작동 pwm.ChangeDutyCycle(8) # 90도 (1.5ms) time.sleep(1.5)
 # 서보 모터를 원래 위치로 돌림 pwm.ChangeDutyCycle(2.3) # 0도 (0.5ms) time.sleep(1)
