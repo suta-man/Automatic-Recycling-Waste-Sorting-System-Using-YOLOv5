@@ -108,3 +108,5 @@ hide_conf=False, # 신뢰도 숨기기 #사용안함
 half=False, # FP16 반정밀도 추론 사용 #사용안함
 dnn=False, # ONNX 추론에 OpenCV DNN 사용 사용안함 vid_stride=1, # 비디오 프레임 레이트 스트라이드
 ```
+
+### 평가 
