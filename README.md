@@ -3,7 +3,7 @@
 -------------------------------------
 ###  ⛑️프로젝트 소개
 ---
-YOLOv5(You Only Look Once version 5)를 이용한 재황용 폐기물 자동 분류 시스템
+YOLOv5(You Only Look Once version 5)를 이용한 재활용 폐기물 자동 분류 시스템
 
 ### 🕰️ 개발 기간
 ---
