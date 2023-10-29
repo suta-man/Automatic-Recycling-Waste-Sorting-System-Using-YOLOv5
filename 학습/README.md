@@ -34,7 +34,7 @@ Val데이터 구성
 
 
 ### 모터제어 및 로그 출력 관련 코드
-
+---
 ``` python
 import RPi.GPIO as GPIO #GPIO핀 관련 라이브러리 import
 # 라즈베리파이 GPIO 핀 설정
@@ -86,7 +86,7 @@ GPIO.setup(SUB, GPIO.IN) #서보모터 작동 정지
 ```
 
 ### 객체 탐지 알고리즘 함수
-
+---
 ``` python
 def run(
 weights=ROOT / 'yolov5s.pt', #학습된 모델의 웨이트 파일 source=ROOT / 'data/images', #실행할 소스 본 코드에선 카메라 사용 data=ROOT / 'data/coco128.yaml', # dataset.yaml 경로
@@ -110,3 +110,6 @@ dnn=False, # ONNX 추론에 OpenCV DNN 사용 사용안함 vid_stride=1, # 비�
 ```
 
 ### 평가 
+---
+> ![PR_curve](https://user-images.githubusercontent.com/130136862/278864795-67f7f6be-ec4e-4945-98a9-3df4e1955b6e.png)
+학습시 PR커브 곡선을 볼수있는데 값을 보면 mAP성능이 64.1%정도로 나오게 되는 것을 알수있다. 
