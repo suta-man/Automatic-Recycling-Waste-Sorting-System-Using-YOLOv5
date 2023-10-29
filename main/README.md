@@ -18,7 +18,7 @@ Train데이터 구성
 
 Val데이터 구성
 
--Val데이터 경로: 
+-Val데이터 경로: https://drive.google.com/drive/folders/1Jv5mZOs38c8tdOgi60xTkMiyI8WbwSRA?usp=sharing
 
 |데이터 종류|개수[개]|비율[%]|
 |--------|---|---|
