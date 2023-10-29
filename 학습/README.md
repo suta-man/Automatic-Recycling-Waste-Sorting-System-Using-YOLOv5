@@ -95,16 +95,16 @@ conf_thres=0.25, # 신뢰도 임계값
 iou_thres=0.45, # NMS IOU 임계값
 max_det=1000, # 이미지당 최대 감지 개수
 device='', # 그래픽 카드 사용여부 0: no, 1: yes
-view_img=False, # 결과 보기 사용안함
-save_txt=False, # *.txt로 결과 저장 사용안함
+view_img=False, # 결과 보기 #사용안함
+save_txt=False, # *.txt로 결과 저장 #사용안함
 save_conf=False, # --save-txt 레이블에 신뢰도 저장 사용안함 save_crop=False, # 예측 박스를 자르기하여 저장 사용안함 nosave=False, # 이미지/비디오 저장하지 않음 사용안함 classes=None, # 클래스로 필터링: --class 0 또는 --class 0 2 3 agnostic_nms=False, # 클래스에 상관없는 NMS
-augment=False, # 증강된 추론 사용안함
-visualize=False, # 특징 시각화 사용안함
-update=False, # 모든 모델 업데이트 사용안함
+augment=False, # 증강된 추론 #사용안함
+visualize=False, # 특징 시각화 #사용안함
+update=False, # 모든 모델 업데이트 #사용안함
 project=ROOT / 'runs/detect', # 결과를 project/name에 저장 name='exp', # 결과를 exp라는 파일명에 저장
 exist_ok=False, # 기존의 project/name 허용, 증가하지 않음 사용안함 line_thickness=3, # 경계 상자 두께 (픽셀)
-hide_labels=False, # 레이블 숨기기 사용안함
-hide_conf=False, # 신뢰도 숨기기 사용안함
-half=False, # FP16 반정밀도 추론 사용 사용안함
+hide_labels=False, # 레이블 숨기기 #사용안함
+hide_conf=False, # 신뢰도 숨기기 #사용안함
+half=False, # FP16 반정밀도 추론 사용 #사용안함
 dnn=False, # ONNX 추론에 OpenCV DNN 사용 사용안함 vid_stride=1, # 비디오 프레임 레이트 스트라이드
 ```
